@@ -1,0 +1,29 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+}
+
+td{
+    font-size:50px;
+    border: 1px solid #163a16;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+table{
+    background-color: rgb(147, 196, 151);
+    padding:20px 10px;
+
+}
+th{
+    font-size: 45px;
+    font-family: "Times New Roman"
+}
