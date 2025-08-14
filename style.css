@@ -1,39 +1,72 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-}
-
-.container{
+  }
+  
+  .container {
     width: 90%;
     max-width: 1200px;
-}
-
-/*cabeçalho*/
-header{
-    background-color: rgb(82, 85, 248);
+    margin: auto;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #333;
     color: white;
-    padding: 20px 20px;
-}
-
-header .container{
+    padding: 20px 0;
+  }
+  
+  header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.menu{
+  }
+  
+  .menu {
     list-style: none;
     display: flex;
     gap: 20px;
-}
-
-.menu a{
+  }
+  
+  .menu a {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
-}
+  }
 
 .menu a:hover{
     color: aqua;
+}
+
+main{
+    padding: 40px 0;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 8px;
+    min-width: 250px;
+    flex: 1;
+    border-radius: 14px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    
 }
