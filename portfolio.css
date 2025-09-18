@@ -1,0 +1,99 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: rgb(0, 0, 0);
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color:  #4bafc0;
+    color: white;
+    padding: 20px 0;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+.Bob a:hover{
+    color: #693daf;
+}
+
+.Patrick a:hover{
+  color: #693daf;
+}
+
+.Lula a:hover{
+  color: #693daf;
+}
+
+main{
+    padding: 40px 0;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 25px 0;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 8px;
+    min-width: 250px;
+    flex: 1;
+    border-radius: 14px;
+    box-shadow: 0 2px 5px  #2496c4;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.text-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer{
+    background-color: #4bafc0;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.profile-image{
+  width: 300px;
+  height: 300px;
+  
+}
